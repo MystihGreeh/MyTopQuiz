@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#02776C"
+    tools:context=".controller.GameActivity">
+
+    <TextView
+        android:id="@+id/activity_game1_question1_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textColor="#181F3F"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Question?"
+        tools:ignore="Suspicious0dp" />
+
+    <Button
+        android:id="@+id/activity_game1_answer1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="#718382"
+        android:background="#0E3632"
+        android:textSize="20sp"
+        android:text="Answer1"
+        tools:ignore="Suspicious0dp" />
+
+    <Button
+        android:id="@+id/activity_game1_answer2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="#718382"
+        android:background="#0E3632"
+        android:textSize="20sp"
+        android:text="Answer2"
+        tools:ignore="Suspicious0dp" />
+
+    <Button
+        android:id="@+id/activity_game1_answer3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="#718382"
+        android:background="#0E3632"
+        android:textSize="20sp"
+        android:text="Answer3"
+        tools:ignore="Suspicious0dp" />
+
+    <Button
+        android:id="@+id/activity_game1_answer4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="#718382"
+        android:background="#0E3632"
+        android:textSize="20sp"
+        android:text="Answer4"
+        tools:ignore="Suspicious0dp" />
+
+
+
+</LinearLayout>
